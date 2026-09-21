@@ -1,0 +1,16 @@
+MINI PROJECT 1 — FASHIONPOINT
+
+Judul: Sistem Informasi Persediaan Toko Pakaian
+Tema: Product Information System
+
+Data Layer: products.php
+Menyimpan data produk dalam multidimensional array.
+
+Processing Layer: functions.php
+Menghitung nilai stok dan mengecek stok kritis.
+
+Presentation Layer: index.php
+Memanggil komponen dengan require_once dan menampilkan data dengan foreach.
+
+Rumus: Nilai Stok = Harga x Stok
+Kondisi: stok < 3 = Stok Kritis.
